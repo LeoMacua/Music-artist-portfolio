@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images2/two1.png" type="image/x-icon">
 
-    <title>JUELS✨</title>
+    <title>Juels✨</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
     <div id="header">
@@ -30,7 +32,7 @@
                 <ul id="sidemenu">
                     <li><a class="active" href="index.html">HOME</a></li>
                     <li><a href="#music">MUSIC</a></li>
-                    <li><a href="#about">ARTIST BIO</a></li>
+                    <li><a href="#about">ABOUT ME</a></li>
                     <li><a href="#contact">GENERAL CONTACTS</a></li>
                     <li><a href="mailto:bookjuels@gmail.com">BOOKING REQUESTS</a></li>
                     <li><i class="fas fa-times" onclick="closemenu()"></i></li>
@@ -43,53 +45,147 @@
      <!--------Music-------->
      <div id="music">
         <div class="container">
-            <h1 class="sub-title">Listen Now</h>
-            <ul>
-                <a href="https://www.youtube.com/@juelsmusic"><i class="fa-brands fa-youtube"></i></a>
-                <a href="https://music.apple.com/us/artist/juels/1679825929"><i class="fa-brands fa-apple"></i></a>
-                <a href="https://open.spotify.com/artist/0KBJ3wdRmwXEOJXmvpFjtN"><i class="fa-brands fa-spotify"></i></a>
-                <a href="https://www.amazon.co.uk/music/player/artists/B0C13LQGK5/juels%E2%9C%A8"><i class="fa-brands fa-amazon"></i></a>    
-                <a href="https://soundcloud.com/juelz-925647656/tracks"><i class="fa-brands fa-soundcloud"></i></a>
-            </ul>    
+            <h1 class="sub-title">Listen Now</h> 
         </div>
+     <!--------css grid------------>
+     <div class="container mus">
+        <div class="item item-1">
+            <img src="images2/seven.JPG" class="w-100" alt="Juels' Image">
+        </div>
+        <div class="item item-2">
+            <div class="streaming-link">
+                <a href="https://www.youtube.com/@juelsmusic"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.youtube.com/@juelsmusic" target="_blank" class="btn"></i>Watch Now</a>
+            </div>
+        </div>
+        <div class="item item-3"><div class="streaming-link">
+            <a href="https://music.apple.com/us/artist/juels/1679825929"><i class="fa-brands fa-apple"></i></a>
+            <a href="https://music.apple.com/us/artist/juels/1679825929" target="_blank" class="btn"></i>Play Now</a>
+        </div>
+        </div>
+        <div class="item item-4">
+            <div class="streaming-link">
+                <a href="https://open.spotify.com/artist/0KBJ3wdRmwXEOJXmvpFjtN"><i class="fa-brands fa-spotify"></i></a>
+                <a href="https://open.spotify.com/artist/0KBJ3wdRmwXEOJXmvpFjtN" target="_blank" class="btn"></i>Stream Now</a>
+            </div>
+        </div>
+        <div class="item item-5">
+            <div class="streaming-link">
+                <a href="https://www.amazon.co.uk/music/player/artists/B0C13LQGK5/juels%E2%9C%A8"><i class="fa-brands fa-amazon"></i></a>
+                <a href="https://www.amazon.co.uk/music/player/artists/B0C13LQGK5/juels%E2%9C%A8" target="_blank" class="btn"></i>Buy Now</a>
+            </div>
+        </div>
+        <div class="item item-6">
+            <div class="streaming-link">
+                <a href="https://soundcloud.com/juelz-925647656/tracks"><i class="fa-brands fa-soundcloud"></i></a>
+                <a href="https://soundcloud.com/juelz-925647656/tracks" target="_blank" class="btn"></i>Stream Now</a>
+            </div>
+        </div>
+        <div class="item item-7">
+            <div class="streaming-link">
+            <a href="//www.shazam.com/en-us/artist/juels/1679825929">
+                <img src="images2/shazam.jpeg" alt="Shazam" style="width: 50px; height: 50px;"></a>
+                <a href="//www.shazam.com/en-us/artist/juels/1679825929" target="_blank" class="btn"></i>Listen Now</a>
+            </div> 
+        </div>
+     </div>
+    
+
         <div class="container">
-            <iframe style="border-radius:12px" width="70%" height="430" src="https://open.spotify.com/embed/artist/0KBJ3wdRmwXEOJXmvpFjtN?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius:12px" width="60%" height="430" src="https://open.spotify.com/embed/artist/0KBJ3wdRmwXEOJXmvpFjtN?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
         <div class="container">
             <h1 class="sub-title">Watch Now</h1>
         </div>
         <div class="container">
-            <iframe width="70%" height="430" src="https://www.youtube.com/embed/lWmh5VIcasI?si=WtqgQybXGwQUY8cD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="60%" height="430" src="https://www.youtube.com/embed/lWmh5VIcasI?si=WtqgQybXGwQUY8cD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
+        <p>Latest Single</p>
     </div>
-    <!--------about/artist bio-------->
+    
+    <!---------About------------->
+    
+    <div class="container">
+        <h1 class="sub-title">About Me</h1>
+    </div> 
     <div id="about">
-        <div class="container">
-            <div class="row">
-             <div class="about-col-1">
-                <img src="images2/two1.png" alt="Artist Image">
-             </div>   
-             <div class="about-col-2">
-                <h1 class="sub-title">Artist Bio</h1>
-                <p>Julliette Kimathi AKA JUELS✨ is a Kenyan female singer/songwriter/rapper. She is a versatile artist who’s
-                    sound is a soulful blend of RnB, Reggae, DanceHall & Afropop.
-                    Her singer and song writing skills had her picked as one of the songwriters for music in a series by Foxton
-                    Media Ltd, amongst them are songs like ‘Mpakani Tuko Ready’, ‘We Be Happening’ and in the same
-                    year co wrote a Peace song called ‘Rise’ CEDO ft Machakos Boys which bagged 2nd place in a UN
-                    Peace Award - United Nations Disarmament Affairs & Ministry of Foreign Affairs, Republic of Korea.
-                    She is well known for her soulful performances and has perfected her craft or story telling and wordplay
-                    through her music.
-                    She has performed in restaurants across the city with her band The Krafted, The GogoSimo Band, has
-                    been featured on KIKE concert tour, GOLD Nairobi to name a few.
-                    She has also done background vocals for a few artists such as Thomas Hype, Muringi, Steph Kapela,
-                    H_art the Band and CEDO.
-                    She is on a mission to inspire and invoke change through her music. She released her debut single ‘ FOR ME’ in April 2023, which you can find on all streaming platforms, including her latest singles.</p>
-                <button id="viewAllBtn">View All</button>    
-             </div>  
+    <div class="container">
+        <div class="carousel slide" id="carouselDemo" data-bs-wrap="true" data-bs-ride="carousel" data-bs-interval="6000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images2/two.jpg" class="w-100">
+                    <div class="carousel-caption" style="top: 50% !important;">
+                        <h2>Juliet Kimathi AKA JUELS✨ is a Kenyan female singer/songwriter/rapper. She is a versatile artist who’s
+                            sound is a soulful blend of RnB, Reggae, DanceHall & Afropop.</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images2/six.JPG" class="w-100">
+                    <div class="carousel-caption" style="top: 50% !important;">
+                        <h3>Her singer and song writing skills had her picked as one of the songwriters for music in a series by Foxton
+                            Media Ltd, amongst them are songs like ‘Mpakani Tuko Ready’, ‘We Be Happening’.</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images2/three.jpg" class="w-100">
+                    <div class="carousel-caption" style="top: 40% !important;">
+                        <h3> In the same year co wrote a Peace song called ‘Rise’ CEDO ft Machakos Boys which bagged 2nd place in a UN
+                            Peace Award - United Nations Disarmament Affairs & Ministry of Foreign Affairs, Republic of Korea.
+                            She has also featured as a background singer in one of Kenya’s new drama series titled ‘Faithless’.</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images2/five.jpg" class="w-100">
+                    <div class="carousel-caption" style="top: 40% !important;">
+                        <h3>She is well known for her soulful performances and has perfected her craft or story telling and wordplay
+                            through her music. She has performed in restaurants across the city with her band The Krafted, The
+                            GogoSimo Band, has been featured on KIKE Concert Tour, GOLD Nairobi, AFREENATION, HEART
+                            TO HEART to name a few.</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images2/four.jpg" class="w-100">
+                    <div class="carousel-caption" style="top: 50% !important;">
+                        <h2>She has also done background vocals for a few artists such as Thomas Hype, Muringi, Steph Kapela,
+                            H_art the Band and CEDO.</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images2/seven.JPG" class="w-100">
+                    <div class="carousel-caption" style="top: 50% !important;">
+                        <h2>She released her debut single ‘FOR ME’ in April 2023 and has gone on to release four other singles
+                            since.  
+                          She is on a mission to inspire and invoke change through her music.</h2>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" 
+                type="button"
+                data-bs-target="#carouselDemo"
+                data-bs-slide="prev">
+                   <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselDemo"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                </button>
+
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carouselDemo" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carouselDemo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselDemo" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carouselDemo" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carouselDemo" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#carouselDemo" data-bs-slide-to="5"></button>
+                </div>
             </div>
         </div>
     </div>
-    
+</div>
+
+
       <!--------Contacts-------->
     <div id="contact">
         <div class="container">
@@ -131,7 +227,7 @@
             <li>
                 <a href="index.html">HOME</a>
                 <a href="#music">MUSIC</a>
-                <a href="#about">ARTIST BIO</a>
+                <a href="#about">ABOUT ME</a>
                 <a href="#contact">GENERAL CONTACTS</a>
                 <a href="mailto:bookjuels@gmail.com">BOOKING REQUESTS</a>
              </li>
@@ -139,7 +235,9 @@
         <p>DO NOT SELL MY PERSONAL INFORMATION</p>
         <p>Made by Macua</p>
      </footer>
-
+     
+     <!-------script for sidemenu in smaller screens-------->
+     <script src="app.js"></script>
      <script>
         var sidemenu = document.getElementById("sidemenu");
 
@@ -184,20 +282,8 @@
     document.addEventListener('click', closeMenuOnClickOutside);
 });
 
-// artist bio button
-document.addEventListener('DOMContentLoaded', function() {
-    var viewAllBtn = document.getElementById('viewAllBtn');
-    var bioParagraph = document.querySelector('.about-col-2 p');
-    
-    viewAllBtn.addEventListener('click', function() {
-        bioParagraph.classList.toggle('show-full');
-        if (bioParagraph.classList.contains('show-full')) {
-            viewAllBtn.textContent = 'Show Less';
-        } else {
-            viewAllBtn.textContent = 'View All';
-        }
-    });
-});
 
      </script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+     </body>
 </html>
